@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Weight Converter</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mb-3">
+				<h1 class="display-4 text-center">Weight Converter</h1>
+			</div>
+			<div class="col-md-3">
+				<div class="form">
+					<div class="form-group">
+						<input id="poundsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+					</div>
+				</div>
+				<div id="poundsOutput">
+					<div class="card bg-primary mb-2 danger">
+						<div class="card-block">
+							<h5>Grams:</h5>
+							<div id="poundsToGramOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-success mb-2">
+						<div class="card-block">
+							<h5>Kilograms:</h5>
+							<div id="poundsToKGOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-danger">
+						<div class="card-block">
+							<h5>Ounces:</h5>
+							<div id="poundsToOZOutput"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="form">
+					<div class="form-group">
+						<input id="gramsInput" type="number" class="form-control form-control-lg" placeholder="Enter Grams...">
+					</div>
+				</div>
+				<div id="gramsOutput">
+					<div class="card bg-primary mb-2 danger">
+						<div class="card-block">
+							<h5>Pounds:</h5>
+							<div id="gramsToPoundsOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-success mb-2">
+						<div class="card-block">
+							<h5>Kilograms:</h5>
+							<div id="gramsToKGOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-danger">
+						<div class="card-block">
+							<h5>Ounces:</h5>
+							<div id="gramsToOZOutput"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="form">
+					<div class="form-group">
+						<input id="kgInput" type="number" class="form-control form-control-lg" placeholder="Enter Kilograms...">
+					</div>
+				</div>
+				<div id="kgOutput">
+					<div class="card bg-primary mb-2 danger">
+						<div class="card-block">
+							<h5>Grams:</h5>
+							<div id="kgToGramOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-success mb-2">
+						<div class="card-block">
+							<h5>Pounds:</h5>
+							<div id="kgToPoundsOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-danger">
+						<div class="card-block">
+							<h5>Ounces:</h5>
+							<div id="kgToOZOutput"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="form">
+					<div class="form-group">
+						<input id="ozInput" type="number" class="form-control form-control-lg" placeholder="Enter Ounces...">
+					</div>
+				</div>
+				<div id="ozOutput">
+					<div class="card bg-primary mb-2 danger">
+						<div class="card-block">
+							<h5>Grams:</h5>
+							<div id="ozToGramsOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-success mb-2">
+						<div class="card-block">
+							<h5>Kilograms:</h5>
+							<div id="ozToKGOutput"></div>
+						</div>
+					</div>
+					<div class="card bg-danger">
+						<div class="card-block">
+							<h5>Pounds:</h5>
+							<div id="ozToPoundsOutput"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
